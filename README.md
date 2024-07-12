@@ -16,24 +16,24 @@ This project is a Library Management System Backend API developed using Python a
 1. *Clone the repository:*
 
     bash
-    git clone https://github.com/MadhuNishad23/library-management-system.git
+    https://github.com/kumkumtiwari798/library-management-system.git
     cd library-management-system
     
 
-2. *Create a virtual environment and activate it:*
+3. *Create a virtual environment and activate it:*
 
     bash
     python -m venv venv
     source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
     
 
-3. *Install the dependencies:*
+4. *Install the dependencies:*
 
     bash
     pip install -r requirements.txt
     
 
-4. *Configure MariaDB:*
+5. *Configure MariaDB:*
 
     - Install MariaDB and create a database named library_db.
     - Create a user for the database and grant necessary permissions.
@@ -45,7 +45,7 @@ This project is a Library Management System Backend API developed using Python a
     FLUSH PRIVILEGES;
     
 
-5. *Update the configuration:*
+6. *Update the configuration:*
 
     Update the MySQL configuration in app.py:
 
